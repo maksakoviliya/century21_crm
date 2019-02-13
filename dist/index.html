@@ -220,37 +220,55 @@
                 </svg></span><span data-text="Скрыть фильтр" class="text">Показать фильтр</span></a>
           </div>
           <div class="filter__content">
-            <div class="columns is-multiline">
-              <div class="column is-12">
-                <div class="input-styled input-styled_with-icon_left">
-                  <div class="icon-left"><img src="./img/search.png" alt=""/></div>
-                  <input type="text" placeholder="Поиск по улице, ответственному, номеру объявления..."/>
+            <form action="#">
+              <div class="columns is-multiline">
+                <div class="column is-12">
+                  <div class="input-styled input-styled_with-icon_left">
+                    <div class="icon-left"><img src="./img/search.png" alt=""/></div>
+                    <input type="text" placeholder="Поиск по улице, ответственному, номеру объявления..."/>
+                  </div>
+                  <div class="input-styled input-styled_with-icon_right">
+                    <div class="icon-right"><img src="./img/small-calendar2.png" alt=""/></div>
+                    <input type="text" name="daterange" placeholder="Даты"/>
+                  </div>
+                </div>
+                <div class="column is-12">
+                  <select class="select_single">
+                    <option value="1 комната" disabled="disabled">Город</option>
+                    <option value="1 комната">1 комната</option>
+                    <option value="Купить квартиру">1,2 комнаты</option>
+                    <option value="Купить квартиру">1,2,3 комнаты</option>
+                    <option value="Купить квартиру">1,2,3,4 комнаты</option>
+                  </select>
+                  <select multiple="multiple" class="select_multiple">
+                    <option value="0" disabled="disabled">Город</option>
+                    <option value="1 комната">1 комната</option>
+                    <option value="2">1,2 комнаты</option>
+                    <option value="3">1,2,3 комнаты</option>
+                    <option value="4">1,2,3,4 комнаты</option>
+                  </select>
+                  <select class="select_single">
+                    <option value="1 комната" disabled="disabled">Город</option>
+                    <option value="1 комната">1 комната</option>
+                    <option value="Купить квартиру">1,2 комнаты</option>
+                    <option value="Купить квартиру">1,2,3 комнаты</option>
+                    <option value="Купить квартиру">1,2,3,4 комнаты</option>
+                  </select>
+                </div>
+                <div class="column is-12">
+                  <div class="range-slider">
+                    <div class="range-slider__inputs"><span class="label">Цена</span>
+                      <div class="input-styled">
+                        <input type="text" value="0 руб."/>
+                      </div>
+                      <div class="input-styled">
+                        <input type="text" value="3 000 000 руб."/>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="column">
-                <select>
-                  <option value="1 комната" disabled="disabled">Город</option>
-                  <option value="1 комната">1 комната</option>
-                  <option value="Купить квартиру">1,2 комнаты</option>
-                  <option value="Купить квартиру">1,2,3 комнаты</option>
-                  <option value="Купить квартиру">1,2,3,4 комнаты</option>
-                </select>
-                <select>
-                  <option value="1 комната" disabled="disabled">Город</option>
-                  <option value="1 комната">1 комната</option>
-                  <option value="Купить квартиру">1,2 комнаты</option>
-                  <option value="Купить квартиру">1,2,3 комнаты</option>
-                  <option value="Купить квартиру">1,2,3,4 комнаты</option>
-                </select>
-                <select>
-                  <option value="1 комната" disabled="disabled">Город</option>
-                  <option value="1 комната">1 комната</option>
-                  <option value="Купить квартиру">1,2 комнаты</option>
-                  <option value="Купить квартиру">1,2,3 комнаты</option>
-                  <option value="Купить квартиру">1,2,3,4 комнаты</option>
-                </select>
-              </div>
-            </div>
+            </form>
           </div>
         </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       </div>
